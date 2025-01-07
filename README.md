@@ -24,7 +24,7 @@ A streamlined appointment management system built using **Google Sheets**, **App
    - Sends personalized reminder messages to clients.
    - Example message:  
      ```
-     Hello [Name], your appointment is scheduled for [Date] at [Time] in [Location].
+     Hola [Name], te envío recordatorio de la cita de mañana a las [Time] en [Location]. Por favor, confirma haciendo clic aquí: [confirmLink]
      ```
 
 4. **HTML Bridge**:
@@ -45,3 +45,13 @@ A streamlined appointment management system built using **Google Sheets**, **App
    ```bash
    git clone https://github.com/your-username/appointment-automation-system.git
    cd appointment-automation-system
+2.    Set up Google Apps Script:
+    Open Google Sheets.
+    Navigate to Extensions → Apps Script and paste the code from src/appsscript/.
+
+3. Configure Twilio:
+    Add your Twilio credentials to the sendWhatsAppMessage function in src/twilio/twilio.js.
+
+4. [Optional] Deploy the HTML Bridge:
+
+    Host src/html-template.html on your WordPress site or any static hosting.
