@@ -41,17 +41,17 @@ A streamlined appointment management system built using **Google Sheets**, **App
 
 ### Installation
 
-#### template Agenda
+#### Agenda (Google Sheets + AppsScript)
 
 Make a copy of the template: https://docs.google.com/spreadsheets/d/1rDGBbzt8cI3WLu435j79ba4rjZE-lUDFIBAeLVmHd6g/copy
 
-3.    Set up Google Apps Script:
-    Open Google Sheets.
-    Navigate to Extensions → Apps Script and paste the code from src/appsscript/.
+
 
 4. Configure Twilio:
     Add your Twilio credentials to the sendWhatsAppMessage function in src/twilio/twilio.js.
+#### TwilioConnect (AppsScript)
+Make a copy of the code: https://script.google.com/d/1KkGNxu4-Cj4zabINwdVkAbGozUFhVVqB6Oyoa6hGC6FF6XEIlYIilRuG/edit?usp=sharing
 
-5. [Optional] Deploy the HTML Bridge:
+6. [Optional] Deploy the HTML Bridge:
 
     Host src/html-template.html on your WordPress site or any static hosting.
