@@ -47,8 +47,10 @@ Make a copy of the template: https://docs.google.com/spreadsheets/d/1rDGBbzt8cI3
 
 
 
+
+
 4. Configure Twilio:
-    Add your Twilio credentials to the sendWhatsAppMessage function in src/twilio/twilio.js.
+    
 #### TwilioConnect (AppsScript)
 Make a copy of the code: https://script.google.com/d/1KkGNxu4-Cj4zabINwdVkAbGozUFhVVqB6Oyoa6hGC6FF6XEIlYIilRuG/edit?usp=sharing
 
